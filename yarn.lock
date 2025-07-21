@@ -4721,7 +4721,7 @@ react-refresh@^0.14.2:
   dependencies:
     react-router "7.1.5"
 
-react-router@7.1.5, "react-router@^6.28.1 || ^7.1.1", react-router@^7.1.1:
+react-router@7.1.5:
   version "7.1.5"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.1.5.tgz#c9e19d329d9ce2215fdae844ab6b023b911094db"
   integrity sha512-8BUF+hZEU4/z/JD201yK6S+UYhsf58bzYIDq2NS1iGpwxSXDu7F+DeGSkIXMFBuHZB21FSiCzEcUb18cQNdRkA==
@@ -4730,6 +4730,14 @@ react-router@7.1.5, "react-router@^6.28.1 || ^7.1.1", react-router@^7.1.1:
     cookie "^1.0.1"
     set-cookie-parser "^2.6.0"
     turbo-stream "2.4.0"
+
+"react-router@^6.28.1 || ^7.1.1", react-router@^7.7.0:
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.7.0.tgz#9e5dc8a3be0c7a1931fcff6f32624b66a285b56a"
+  integrity sha512-3FUYSwlvB/5wRJVTL/aavqHmfUKe0+Xm9MllkYgGo9eDwNdkvwlJGjpPxono1kCycLt6AnDTgjmXvK3/B4QGuw==
+  dependencies:
+    cookie "^1.0.1"
+    set-cookie-parser "^2.6.0"
 
 react-test-renderer@^19.0.0:
   version "19.0.0"
