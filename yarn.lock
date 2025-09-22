@@ -1135,12 +1135,24 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.66.4.tgz#44b87bff289466adbfa0de8daa5756cbd2d61c61"
   integrity sha512-skM/gzNX4shPkqmdTCSoHtJAPMTtmIJNS0hE+xwTTUVYwezArCT34NMermABmBVUg5Ls5aiUXEDXfqwR1oVkcA==
 
+"@tanstack/query-core@5.89.0":
+  version "5.89.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.89.0.tgz#67862fa9aa036942b1906bc51385115a2bbec45a"
+  integrity sha512-joFV1MuPhSLsKfTzwjmPDrp8ENfZ9N23ymFu07nLfn3JCkSHy0CFgsyhHTJOmWaumC/WiNIKM0EJyduCF/Ih/Q==
+
 "@tanstack/react-query@^5.21.7", "@tanstack/react-query@^5.66.5":
   version "5.66.5"
   resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.66.5.tgz#a1c466c81837cb56b279b5189e1efd6d31754d46"
   integrity sha512-D9aABj3/aFeNmifsdllh5O3hPyA8gUnZ1jAV8MjODQ7blirfAyGed9NjAnm8rgEdr1wChyjTT738ij3vY0EREQ==
   dependencies:
     "@tanstack/query-core" "5.66.4"
+
+"@tanstack/react-query@^5.83.0":
+  version "5.89.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.89.0.tgz#ae295ced60d1aee555337a572ad4045e2af3d00a"
+  integrity sha512-SXbtWSTSRXyBOe80mszPxpEbaN4XPRUp/i0EfQK1uyj3KCk/c8FuPJNIRwzOVe/OU3rzxrYtiNabsAmk1l714A==
+  dependencies:
+    "@tanstack/query-core" "5.89.0"
 
 "@testing-library/dom@^10.0.0":
   version "10.4.0"
@@ -4562,13 +4574,12 @@ ra-core@^4.11.2, ra-core@^4.16.2:
     react-is "^17.0.2"
     react-query "^3.32.1"
 
-ra-core@^5.4.3, ra-core@^5.4.4, ra-core@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.5.3.tgz#9068b1704699b9da7bfc5ac1fce3c51f2311d901"
-  integrity sha512-HoyY0El+KODNGsuHr/t74kCb40B9kUCD7nYmGczgHla+URaJhu71ss86urS33zrSta9nGapoO7OUaxyVlaZF4A==
+ra-core@^5.11.3, ra-core@^5.4.3, ra-core@^5.4.4, ra-core@^5.5.3:
+  version "5.11.3"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.11.3.tgz#8ceedc0e2bc3a73fc727512cfebc6f5dee672f9a"
+  integrity sha512-n6Ut7nZ2f8SvnoqV/5NC/RYcrPJh0WykHV5UJ+cpXALzUtBEih51L9qZB7dyhfO0da04Er9kiqF7AojZPlz8dA==
   dependencies:
-    "@tanstack/react-query" "^5.21.7"
-    clsx "^2.1.1"
+    "@tanstack/react-query" "^5.83.0"
     date-fns "^3.6.0"
     eventemitter3 "^5.0.1"
     inflection "^3.0.0"
@@ -4578,13 +4589,13 @@ ra-core@^5.4.3, ra-core@^5.4.4, ra-core@^5.5.3:
     react-error-boundary "^4.0.13"
     react-is "^18.2.0 || ^19.0.0"
 
-ra-i18n-polyglot@^5.4.4, ra-i18n-polyglot@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.5.3.tgz#d88332a3ffb79311d886947a6c893b28d0d883dd"
-  integrity sha512-xD409F3gN/10EDsuVf07+bV2ZpsnUr3otciJCR2d+sgSI9/d2+HNt+klKlsUC0qfF34LltHDx/ELVVeFbC36Og==
+ra-i18n-polyglot@^5.11.3, ra-i18n-polyglot@^5.5.3:
+  version "5.11.3"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.11.3.tgz#f6ea1fc6b0bf5251f90285c6eaaaa7386c05512e"
+  integrity sha512-cooNjJzieR6kg0R+bd9MwaovPdAYdNusdQ19d8SvrKErlOX8oXcyb8Uy0KHx0L1w54HgLP9l+q+YyZlAYlOfmQ==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^5.5.3"
+    ra-core "^5.11.3"
 
 ra-language-english@^5.4.4, ra-language-english@^5.5.3:
   version "5.5.3"
