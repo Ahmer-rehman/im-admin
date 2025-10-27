@@ -1130,17 +1130,17 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@tanstack/query-core@5.66.4":
-  version "5.66.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.66.4.tgz#44b87bff289466adbfa0de8daa5756cbd2d61c61"
-  integrity sha512-skM/gzNX4shPkqmdTCSoHtJAPMTtmIJNS0hE+xwTTUVYwezArCT34NMermABmBVUg5Ls5aiUXEDXfqwR1oVkcA==
+"@tanstack/query-core@5.90.5":
+  version "5.90.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.5.tgz#0175f9f517514906db8ab379589ed3f96694ecc4"
+  integrity sha512-wLamYp7FaDq6ZnNehypKI5fNvxHPfTYylE0m/ZpuuzJfJqhR5Pxg9gvGBHZx4n7J+V5Rg5mZxHHTlv25Zt5u+w==
 
-"@tanstack/react-query@^5.21.7", "@tanstack/react-query@^5.66.5":
-  version "5.66.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.66.5.tgz#a1c466c81837cb56b279b5189e1efd6d31754d46"
-  integrity sha512-D9aABj3/aFeNmifsdllh5O3hPyA8gUnZ1jAV8MjODQ7blirfAyGed9NjAnm8rgEdr1wChyjTT738ij3vY0EREQ==
+"@tanstack/react-query@^5.21.7", "@tanstack/react-query@^5.66.5", "@tanstack/react-query@^5.83.0":
+  version "5.90.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.90.5.tgz#545e61282c787bd87ac5785da9a4943462f78ef6"
+  integrity sha512-pN+8UWpxZkEJ/Rnnj2v2Sxpx1WFlaa9L6a4UO89p6tTQbeo+m0MS8oYDjbggrR8QcTyjKoYWKS3xJQGr3ExT8Q==
   dependencies:
-    "@tanstack/query-core" "5.66.4"
+    "@tanstack/query-core" "5.90.5"
 
 "@testing-library/dom@^10.0.0":
   version "10.4.0"
@@ -4562,13 +4562,12 @@ ra-core@^4.11.2, ra-core@^4.16.2:
     react-is "^17.0.2"
     react-query "^3.32.1"
 
-ra-core@^5.4.3, ra-core@^5.4.4, ra-core@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.5.3.tgz#9068b1704699b9da7bfc5ac1fce3c51f2311d901"
-  integrity sha512-HoyY0El+KODNGsuHr/t74kCb40B9kUCD7nYmGczgHla+URaJhu71ss86urS33zrSta9nGapoO7OUaxyVlaZF4A==
+ra-core@^5.12.2, ra-core@^5.4.3, ra-core@^5.5.3:
+  version "5.12.2"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.12.2.tgz#4dc20a15e1670c997bfa445c0ae26d3dae8b53af"
+  integrity sha512-NkvRtnv/o5w7ZFJ7XU0Mu8gK1RI2IWFZu4ymt9SP462sAj6CpKx5fHGdQE723tgkUxwPbzKbPX6ohAlFOzy7HQ==
   dependencies:
-    "@tanstack/react-query" "^5.21.7"
-    clsx "^2.1.1"
+    "@tanstack/react-query" "^5.83.0"
     date-fns "^3.6.0"
     eventemitter3 "^5.0.1"
     inflection "^3.0.0"
